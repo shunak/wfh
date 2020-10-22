@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ $# != 2 ]; then
-    echo "Error: Need your GitHub Username and Repository's visibility, input Username as first argument and Repos visibility public or private as second argument." $*
+    echo "Error: Need your GitHub Username and Repository's visibility, input Username as first argument and Repository's visibility public or private as second argument." $*
     exit 1
 else
     echo "Start creating New Repository on your GitHub..."
