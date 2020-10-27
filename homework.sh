@@ -13,7 +13,7 @@ if [ $2 = "public" ]; then
 elif [ $2 = "private" ]; then
     curl -H "Authorization: token $GITHUB_PAT" https://api.github.com/user/repos -d '{"name":"'$reposname'","description":"This repository created from CLI on your local.","private":"true"}'
 else
-    echo "Error: Need your GitHub Repository's visibility, input public or private as first argument."
+    echo "Error: Need your GitHub Repository's visibility as second argument, input public or private."
     exit 1
 fi
 
