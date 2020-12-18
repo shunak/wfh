@@ -1,5 +1,5 @@
 # wfh
-Create repository directly from your local folder to GitHub.
+Create a repository directly from your local folder to GitHub.
 Accepted [New Github authentication policy](https://developer.github.com/changes/2020-02-14-deprecating-password-auth/)<br>
 \* All password authentication will return a status code of 401 starting: November 13, 2020 at 16:00 UTC <br>
 
