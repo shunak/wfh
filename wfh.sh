@@ -20,7 +20,7 @@ fi
 touch README.md
 echo "Now Editing..." >> README.md
 
-rm ./homework.sh
+rm ./wfh.sh
 
 git init
 git add .
