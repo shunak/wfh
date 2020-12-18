@@ -1,9 +1,9 @@
 #!/bin/bash
 if [ $# != 2 ]; then
-    echo "Error: Need your GitHub Username and Repository's visibility, input Username as first argument and Repository's visibility public or private as second argument." $*
+    echo "Error: Need your GitHub Username and Repository's visibility, input Username as a first argument and Repository's visibility public or private as a second argument." $*
     exit 1
 else
-    echo "Start creating New Repository on your GitHub..."
+    echo "Start creating a New Repository on your GitHub..."
 fi
 
 reposname=$(pwd | awk -F"/" '{print $NF}')
