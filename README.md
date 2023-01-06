@@ -3,7 +3,7 @@ Create a remote repository directly from your local folder to GitHub.
 <br>
 <br>
 
-### Get GitHub Personal access token
+### Get a GitHub Personal access token
 Choose Personal access token (classic) <br>
 Create from here -> https://github.com/settings/tokens
 <br>
