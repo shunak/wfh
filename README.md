@@ -2,7 +2,7 @@
 Create a remote repository directly from your local folder to GitHub.
 
 ## Get GitHub Personal access token
-Choose Personal access token (classic)
+Choose Personal access token (classic) <br>
 Create from here -> https://github.com/settings/tokens
 
 ## Set the Personal access token as a environment variable
