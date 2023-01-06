@@ -9,7 +9,7 @@ Create from here -> https://github.com/settings/tokens
 <br>
 <br>
 
-### Set the Personal access token as a environment variable
+### Set the Personal access token as a your local shell's environment variable
 Set the Personal access token as a environment variable of your local shell, with naming $GITHUB_PAT
 (If you are already using the environment variable name $GITHUB_PAT, change it to other name, sorry. )
 <br>
