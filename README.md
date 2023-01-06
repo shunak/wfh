@@ -4,17 +4,19 @@ Create a remote repository directly from your local folder to GitHub.
 ### Get GitHub Personal access token
 Choose Personal access token (classic) <br>
 Create from here -> https://github.com/settings/tokens
+<br>
 
 ### Set the Personal access token as a environment variable
 Set the Personal access token as a environment variable of your local shell, with naming $GITHUB_PAT
 (If you are already using the environment variable name $GITHUB_PAT, change it to other name, sorry. )
+<br>
 
-## Install
+### Install
 ```
 git clone https://github.com/shunak/wfh.git
 ```
 
-## How to use
+### How to use
 ```
 cd wfh
 ```
