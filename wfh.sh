@@ -9,9 +9,9 @@ fi
 reposname=$(pwd | awk -F"/" '{print $NF}')
 
 if [ $2 = "public" ]; then
-    curl -H "Authorization: token $GITHUB_PAT" https://api.github.com/user/repos -d '{"name":"'$reposname'","description":"This repository is originally from my local shell."}'
+    curl -H "Authorization: token $GITHUB_PAT" https://api.github.com/user/repos -d '{"name":"'$reposname'","description":"This repository is originally from my local directory."}'
 elif [ $2 = "private" ]; then
-    curl -H "Authorization: token $GITHUB_PAT" https://api.github.com/user/repos -d '{"name":"'$reposname'","description":"This repository is originally from my local shell.","private":"true"}'
+    curl -H "Authorization: token $GITHUB_PAT" https://api.github.com/user/repos -d '{"name":"'$reposname'","description":"This repository is originally from my local directory.","private":"true"}'
 else
     echo "Error: Give your GitHub Repository's visibility as a second argument, input public or private."
     exit 1
