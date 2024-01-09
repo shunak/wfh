@@ -35,8 +35,7 @@ cp ../wfh/wfh.sh .
 zsh wfh.sh shunak private
 ```
 Done. Check at the Github repository. Your local folder is pushed to Github.<br>
-By this way, you can do easily and continuously uploading your local folder to Github<br>
-without any Github commands.
+By this way, you can do easily and continuously uploading your local folder to Github without any Github commands.
 
 If you input your GitHub Username as first argument and Your Repository's visibility as second argument,<br>
 it will create New Repository named with current folder name so, set your directory's name what you want to name. <br>
