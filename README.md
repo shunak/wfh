@@ -1,5 +1,5 @@
 # wfh
-Create a remote repository directly from your local folder to GitHub.
+Create a remote repository directly from your local folder to GitHub without any some kind of Github command.
 <br>
 <br>
 
@@ -34,6 +34,21 @@ Run (e.g. your shell is bash)
 ```
 bash wfh.sh "Your GitHub User Name" "Your Repository's visibility public or private"
 ```
+
+My useage example (Current directly is home and local folder which is push to Github directly from local(testrepos) is at same level directory.)
+![fgh2](https://github.com/shunak/wfh/assets/16934074/980dc98b-6f6a-4362-8292-3077ef74d062)
+
+```
+cd testrepos
+```
+```
+cp ../wfh/wfh.sh .
+```
+```
+zsh wfh.sh shunak private
+```
+Done. Check at the Github repository
+
 If you input your GitHub Username as first argument and Your Repository's visibility as second argument,<br>
 it will create New Repository named with current folder name so, set your directory's name what you want to name. <br>
 
