@@ -19,6 +19,10 @@ fi
 
 touch README.md
 echo "Now Editing..." >> README.md
+touch .gitignore
+touch .env
+echo ".env" >> .gitignore
+
 
 rm ./wfh.sh
 
