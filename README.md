@@ -1,5 +1,5 @@
 # wfh
-Create a remote repository directly from your local folder to GitHub without any some kind of Github command.
+Create a remote repository directly from your local folder to GitHub without any some kind of Github CLI commands(gh).
 <br>
 <br>
 
