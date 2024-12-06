@@ -21,7 +21,14 @@ touch README.md
 echo "Now Editing..." >> README.md
 touch .gitignore
 touch .env
-echo ".env" >> .gitignore
+echo "*.env" >> .gitignore
+echo "node_modules/" >> .gitignore
+echo "*.log" >> .gitignore
+echo "*.DS_Store" >> .gitignore
+echo "Thumbs.db" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo "token.pickle" >> .gitignore
+
 
 
 rm ./wfh.sh
